@@ -1,9 +1,22 @@
 :root{
   --primary-color:#ff9854;
+
+  /* 全局修改search搜索框 */
+  --van-search-left-icon-color:var(--primary-color) !important;
 }
 
 body{
 
   font-size: 17px;
   /* font-family: 'Courier New', Courier, monospace; */
+}
+
+/* 使用css把页面清空（不建议使用） */
+.top_page{
+  position: relative;
+  z-index: 9;
+  background-color: #fff;
+  height: 100vh;
+  overflow-y: auto;
+
 }
